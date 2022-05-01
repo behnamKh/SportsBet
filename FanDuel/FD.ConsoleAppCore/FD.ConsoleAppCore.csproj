@@ -13,4 +13,16 @@
     <ProjectReference Include="..\FD.Library\FD.Library.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Publish\FD.ConsoleAppCore.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Publish\FD.ConsoleAppCore.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Publish\FD.Library.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
